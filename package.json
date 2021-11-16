@@ -6,6 +6,8 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
     "express": "^4.17.1",
     "react": "^18.0.0-beta-96ca8d915-20211115",
     "react-dom": "^18.0.0-beta-96ca8d915-20211115"

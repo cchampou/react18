@@ -14,7 +14,7 @@ async function createServer() {
   app.get('/', async (req, res) => {
     const url = req.originalUrl
     try {
-      const { render } = await vite.ssrLoadModule('/src/server-entry.jsx')
+      const { render } = await vite.ssrLoadModule('/src/server-entry.tsx')
       await render(url, res)
     } catch (e) {
       vite.ssrFixStacktrace(e)
