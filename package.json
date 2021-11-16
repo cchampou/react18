@@ -1,0 +1,13 @@
+{
+  "name": "react18",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cchampou/react18.git",
+  "author": "cchampou <clement@champouillon.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.0-beta-96ca8d915-20211115",
+    "react-dom": "^18.0.0-beta-96ca8d915-20211115"
+  }
+}
